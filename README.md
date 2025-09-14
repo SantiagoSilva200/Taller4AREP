@@ -28,7 +28,7 @@ mvn clean install
 
 # 4. Ejecuta el servidor
 
-java -cp "target/classes;target/dependency/*" co.edu.arep.RestServiceApplication
+java -cp "target/classes;target/dependency/*" co.edu.arep.MicroSpringBoot
 
 ```
 
