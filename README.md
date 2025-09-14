@@ -1,7 +1,7 @@
-## Spring Boot y Docker - Laboratorio 4
+## Taller de de modularización con virtualización e Introducción a Docker - Laboratorio 4
 
 Este taller tiene como objetivo integrar diferentes herramientas y tecnologías usadas en el desarrollo y despliegue de aplicaciones modernas.
-La idea principal es construir una aplicación web sencilla con Spring Boot, empacarla en un contenedor Docker y desplegarla tanto en la máquina local como en una instancia EC2 de AWS.
+La idea principal es construir una aplicación web sencilla sin usar SpringBoot, empacarla en un contenedor Docker y desplegarla tanto en la máquina local como en una instancia EC2 de AWS.
 
 ## Caracteristicas 
 
@@ -32,7 +32,7 @@ java -cp "target/classes;target/dependency/*" co.edu.arep.RestServiceApplication
 
 ```
 
-Una vez ejecutado, abrir: http://localhost:5000/hello
+Una vez ejecutado, abrir: http://localhost:35000/hello
 
 ![2](src/main/images/2.png)
 
@@ -122,6 +122,10 @@ sudo service docker start
 6. Entramos a la URL que nos brinda el DNS publico de nuestro EC2 para verficar que responde correctamente al despliegue de nuestra aplicacion. 
 
 ![4](src/main/images/28.png)
+
+![4](src/main/images/30.png)
+
+![4](src/main/images/31.png)
 
 Tambien verificamos la conexion desde el EC2 con curl. 
 
