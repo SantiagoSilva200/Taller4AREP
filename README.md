@@ -131,6 +131,10 @@ Tambien verificamos la conexion desde el EC2 con curl.
 
 ![4](src/main/images/29.png)
 
+## Video despliegue
+
+[Video de despliegue](./src/main/video/PruebasDespliegue.mp4)
+
 
 ## Tecnologías
 
