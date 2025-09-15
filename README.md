@@ -135,6 +135,12 @@ Tambien verificamos la conexion desde el EC2 con curl.
 
 [Video de despliegue](./src/main/video/PruebasDespliegue.mp4)
 
+1. Presionar el enlace
+
+2. Seleccionar "View RAW" 
+
+3. El video se descargara y ya podra ser visible
+
 
 ## Tecnologías
 
