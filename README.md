@@ -5,7 +5,7 @@ La idea principal es construir una aplicación web sencilla sin usar SpringBoot,
 
 ## Caracteristicas 
 
-Desarrollar una aplicación básica con Spring Boot.
+Desarrollar una aplicación básica sin Spring Boot.
 
 Crear un Dockerfile y un docker-compose para empaquetar y correr la aplicación en contenedores.
 
@@ -73,6 +73,7 @@ correctamenete
 ![4](src/main/images/13.png)
 ![4](src/main/images/14.png)
 ![4](src/main/images/15.png)
+
 ## Subir la imagen a Docker Hub
 
 1. Crear un repositorio 
